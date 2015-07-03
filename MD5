@@ -1,0 +1,10 @@
+40b145f319a1f6543dfe4a5a58a7c442 *DESCRIPTION
+74ec648df37f78283bdcdf82dfd808e6 *LICENSE
+c97126886c136db2caf8f9b024e338ac *NAMESPACE
+e357d77637d9b2190468fcd8ca4deb40 *R/paretoPlot.R
+d9a6512c56e1b0d5509971a815c0fdde *data/distillateflow.rda
+c0179ae155117ec83ee02d799f9efabb *data/pollutant.rda
+f0bd005ec25f6ba69852bf9b744449fb *man/distillateflow.Rd
+12e667ef1929cba9a1731057f0acf5ca *man/paretoPlot.Rd
+f484fd9c0ecca2f7ba73c00edbdb34d3 *man/pid-package.Rd
+f12fd5cf763940b6b8be6c96177db8b3 *man/pollutant.Rd
