@@ -6,17 +6,18 @@ Process Improvement using Data
 }
 \description{
 This package contains functions and datasets that complement the book
-Process Improvement using Data.
+Process Improvement using Data, \url{http://learnche.org/pid}.
 
 The functions and datasets are also used in the massive open online course (MOOC) called
 Experimentation for Improvement, hosted on Coursera.
 
-The functions are most useful for design of experiments (DOE), and more functions will be added
-in later versions.
+The functions are most useful for design of experiments (DOE), and additional functions 
+and datasets will be added as the book and the MOOC evolve over time.
 }
 \details{
-The package is still subject to extensive development in terms of extra datasets and functionality
-that is planned for addition.
+The package is still subject to development, in terms of datasets and functionality,
+at least until version numbers exceed 1.0. Version numbers below 1.0 indicate that
+functionality may change over time.
 
 Please contact me, if you have suggestions.
 

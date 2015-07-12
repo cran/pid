@@ -1,3 +1,5 @@
+% http://cran.r-project.org/doc/manuals/r-release/R-exts.html
+
 \name{paretoPlot}
 %name typically is the basename of the Rd file containing the documentation. It is the "name" of the Rd object represented by the file and has to be unique in a package. To avoid problems with indexing the package manual, it may not contain `, | nor @ , and to avoid possible problems with the HTML help system it should not contain '/' nor a space. (LaTeX special characters are allowed, but may not be collated correctly in the index.) There can only be one \name entry in a file, and it must not contain any markup. Entries in the package manual will be in alphabetic order of the \name entries.
 
@@ -15,7 +17,10 @@ The absolute value of the coefficients are taken.
 The coefficient's sign is represented by the bar colour: grey for negative and black for positive coefficients.}
 %A short description of what the function(s) do(es) (one paragraph, a few lines only). (If a description is too long and cannot easily be shortened, the file probably tries to document too much at once.) This is mandatory except for package-overview files.
 
-\usage{paretoPlot(lsmodel)} 
+\usage{paretoPlot(lsmodel, xlab="Effect name", ylab="Magnitude of effect",
+                       main="Pareto plot", legendtitle="Sign of coefficient",
+                       negative=c("Negative", "grey"),
+                       positive=c("Positive", "black"))} 
 %One or more lines showing the synopsis of the function(s) and variables documented in the file. These are set in typewriter font. This is an R-like command.
 % The usage information specified should match the function definition exactly (such that automatic checking for consistency between code and documentation is possible).
 
@@ -23,7 +28,29 @@ The coefficient's sign is represented by the bar colour: grey for negative and b
 \arguments{
 
 \item{lsmodel}{
-  A linear model object (least squares model) created by the \code{lm(\ldots)} function.
+  a linear model object (least squares model) created by the \code{lm(\ldots)} function.
+}
+\item{xlab}{
+  label for horizontal axis in the bar plot.
+}
+\item{ylab}{
+  label for vertical axis in the bar plot.
+}
+\item{main}{
+  label for the plot.
+}
+\item{legendtitle}{
+  an alternative to the default legend title.
+}
+\item{negative}{
+  a two-element vector, both entries must be strings, the first of which 
+  provides the name for negative bars in the legend, and the second tells which
+  colour to plot negative bars with. The default is: c("Negative", "grey").
+}
+\item{positive}{
+  a two-element vector, both entries must be strings, the first of which 
+  provides the name for positive bars in the legend, and the second tells which
+  colour to plot those bars with.
 }
 }
 
