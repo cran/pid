@@ -17,7 +17,7 @@ and datasets will be added as the book and the MOOC evolve over time.
 \details{
 The package is still subject to development, in terms of datasets and functionality,
 at least until version numbers exceed 1.0. Version numbers below 1.0 indicate that
-functionality may change over time.
+functionality may be added, removed or changed over time.
 
 Please contact me, if you have suggestions.
 
@@ -32,16 +32,9 @@ Maintainer: Kevin Dunn <kevin.dunn@mcmaster.ca>
     Box G. E. P, Hunter, W. C. and Hunter, J. S. (2005) 
     \emph{Statistics for Experimenters, 2nd edition}.
     New York: Wiley.
-    
-    Daniel, C. (1959) Use of Half Normal Plots in Interpreting Two Level Experiments.
-    \emph{Technometrics}, \bold{1}, 311-340.
-    
-    Lenth, R.V. (1989) Quick and easy analysis of unreplicated factorials.
-    \emph{Technometrics}, \bold{31}, 469-473.
-  
 }
-\keyword{ array }
-\keyword{ design }
+\keyword{array}
+\keyword{design}
 \seealso{
 Related packages: 
   \pkg{\link[DoE.base:DoE.base-package]{DoE.base}}, \pkg{\link[BsMD:BsMD-package]{BsMD}}, \pkg{\link[FrF2:FrF2-package]{FrF2}}

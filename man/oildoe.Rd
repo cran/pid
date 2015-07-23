@@ -12,7 +12,7 @@
   The data are scaled and coded for confidentiality. All that may be disclosed is that
   variable C is either added ("Yes") or not added not added ("No").
 }
-\usage{data(pollutant)}
+\usage{data(oildoe)}
 \format{A data.frame containing 19 observations of 5 variables (A, B, C, D, and the response, y)}
 \source{Kevin Dunn, data from a confidential industrial source.}
 \keyword{datasets}

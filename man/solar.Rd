@@ -25,7 +25,7 @@
   The coded values for \verb{A}, \verb{B}, \verb{C}, and \verb{D} are given, with -1 representing
   the low value and +1 the high value.
 }
-\usage{data(pollutant)}
+\usage{data(solar)}
 \format{A data.frame containing 16 observations of 6 variables (A, B, C, D, with y1 and y2 as responses.)}
 \source{Box, Hunter and Hunter, 2nd edition, Chapter 5, page 230.}
 \references{Box, G. E. P. and Hunter, J. S. and Hunter, W. G., 2005, \emph{Statistics for 
