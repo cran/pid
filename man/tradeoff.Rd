@@ -38,7 +38,8 @@ resolution and how to generate the fractional factorial.}
 
 % A detailed if possible precise description of the functionality provided, extending the basic information in the \description slot.
 \details{Fractional factorial designs require a sacrifice in the clarity of the information learned, at the benefit of performing fewer
-experimental runs; thereby decreasing cost and time to run the full set of factorial experiments.
+experimental runs; thereby decreasing cost and time to run the full set of factorial experiments. See \code{\link{tradeOffTable}} for a 
+visual display of this concept.
 
 For example, when running 8 experiments with 7 factors, the design resolution (clarity of estimated effects) is going to be low. This function's
 output indicates how the factors are aliased (confounded) with each other, so you can evaluate the use of the design before actually performing it.

@@ -59,8 +59,9 @@ It is assumed the model is in coded units.}
 % A detailed if possible precise description of the functionality provided, extending the basic information in the \description slot.
 \details{Typical usage is to create a generic linear model with the \code{lm(\dots)} command, and supply that as the input to this function.
 
-For example, a general design of experiments with 4 factors: A, B, C, and D can be built using \code{lsmodel <- lm(y ~ A*B*C*D)}, 
-and then various 2-D contour plots visualized with \code{contourPlot(lsmodel, "A", "B")}, \code{contourPlot(lsmodel, "B", "C")}, or whichever combinations
+For example, a general design of experiments with 4 factors: A, B, C, and D can be built using\cr
+\code{lsmodel <- lm(y ~ A*B*C*D)}, and then various 2-D contour plots visualized with\cr
+\code{contourPlot(lsmodel, "A", "B")}, \code{contourPlot(lsmodel, "B", "C")}, or whichever combination of factors
 are desired. The variables \emph{not} being plotted are set at their zero (0) value. 
 
 Future versions of this function will allow specifying the inactive variable levels. In the interim, please see the \code{rsm} 

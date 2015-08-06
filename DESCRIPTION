@@ -1,7 +1,7 @@
 Package: pid
 Title: Process Improvement using Data
-Version: 0.32
-Date: 2015-07-23
+Version: 0.36
+Date: 2015-08-06
 Authors@R: c(person("Kevin", "Dunn", role = c("aut", "cre"),
   	     email = "kevin.dunn@mcmaster.ca"))
 Author: Kevin Dunn [aut, cre]
@@ -15,6 +15,6 @@ License: BSD_2_clause + file LICENSE
 URL: http://learnche.org/pid
 NeedsCompilation: no
 BugReports: https://bitbucket.org/kevindunn/r-pid
-Packaged: 2015-07-23 12:45:42 UTC; kevindunn
+Packaged: 2015-08-07 03:17:49 UTC; kevindunn
 Repository: CRAN
-Date/Publication: 2015-07-23 15:24:59
+Date/Publication: 2015-08-07 09:01:15

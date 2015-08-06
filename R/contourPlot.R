@@ -74,7 +74,7 @@ contourPlot <- function(lsmodel, xlab=attr(lsmodel$terms,"term.labels")[1],
     scale_x_continuous(breaks = seq(round(xlim[1]), round(xlim[2]), by = 1)) + 
     scale_y_continuous(breaks = seq(round(ylim[1]), round(ylim[2]), by = 1))
   
-  p          # Execute the plot (i.e. draw it!)
+  plot(p)    # Execute the plot (i.e. draw it!)
   return(p)  # Return the plot, so user can continue to modify it
 }
 # P <- c(-1,   +1,  -1, +1)

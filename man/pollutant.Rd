@@ -19,5 +19,5 @@
 \format{A data.frame containing 8 observations of 4 variables (C, S, T and y)}
 \source{Box, Hunter and Hunter, 2nd edition, Chapter 5, Question 19, page 232.}
 \references{Box, G. E. P. and Hunter, J. S. and Hunter, W. G., 2005, \emph{Statistics for 
-        Experimenters}, Second edition. Wiley."}
+        Experimenters}, Second edition. Wiley.}
 \keyword{datasets}

@@ -7,7 +7,7 @@
 %The \alias sections specify all "topics" the file documents. This information is collected into index data bases for lookup by the on-line (plain text and HTML) help systems. The topic can contain spaces, but (for historical reasons) leading and trailing spaces will be stripped. Percent and left brace need to be escaped by a backslash.
 
 
-\title{Displays a basic trade-off table of fractional factorial designs}
+\title{A trade-off table of fractional factorial designs}
 %Title information for the Rd file. This should be capitalized and not end in a period; try to limit its length to at most 65 characters for widest compatibility.
 % There must be one (and only one) \title section in a help file.
 
@@ -49,6 +49,9 @@
 
 % A section with references to the literature. Use \url{} or \href{}{} for web pointers.
 \references{Chapter 5 of the following book: Kevin Dunn, 2010 to 2015, \emph{Process Improvement using Data}, \url{http://learnche.org/pid}
+
+Please see this paper to gain an understanding of how these trade-off tables are constructed:\cr
+Arthur Fries and William G. Hunter, (1980) Minimum Aberration \eqn{2^{k-p}} Designs, \emph{Technometrics}, \bold{22}(4), pp. 601-608, \url{https://www.jstor.org/stable/1268198}
 }
 
 % Use this for a special note you want to have pointed out. Multiple \note sections are allowed, but might be confusing to the end users.
