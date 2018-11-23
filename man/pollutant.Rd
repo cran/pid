@@ -6,11 +6,13 @@
   The data are from the first 8 rows of the pollutant water treatment example
   in the book by Box, Hunter and Hunter, 2nd edition, Chapter 5, Question 19.
   
-  The data are in coded units where:
+  The 3 factors (C, T, and S) are in coded units where:
   C: -1 is chemical brand A; +1 is chemical brand B
   T: -1 is 72F for treatment temperature; +1 is 100F for the temperature
   S: -1 is No stirring; +1 is with fast stirring
-  y: is the pollutant amount in the discharge [lb/day].
+  
+  The outcome variable is:
+  y: the pollutant amount in the discharge [lb/day].
   
   The aim is to find treatment conditions that MINIMIZE the amount of pollutant
   discharged each day, where the limit is 10 lb/day.

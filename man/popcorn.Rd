@@ -7,11 +7,11 @@
 \title{Simulation of stovetop popcorn cooking}
 %Title information for the Rd file. This should be capitalized and not end in a period; try to limit its length to at most 65 characters for widest compatibility. There must be one (and only one) \title section in a help file.
 
-\description{A fixed number of popcorn kernels are cooked are heated at the same temperature. This simulation returns the number of 
+\description{A fixed number of popcorn kernels are cooked are heated at the same temperature. This simulation returns the number of
 kernels that are edible when the pot is left on the stove for a given number of \code{T} seconds.\cr}
 %A short description of what the function(s) do(es) (one paragraph, a few lines only). (If a description is too long and cannot easily be shortened, the file probably tries to document too much at once.) This is mandatory except for package-overview files.
 
-\usage{popcorn(T=120)} 
+\usage{popcorn(T=120)}
 %One or more lines showing the synopsis of the function(s) and variables documented in the file. These are set in typewriter font. This is an R-like command.
 % The usage information specified should match the function definition exactly (such that automatic checking for consistency between code and documentation is possible).
 
@@ -24,9 +24,9 @@ kernels that are edible when the pot is left on the stove for a given number of 
 }
 
 % A detailed if possible precise description of the functionality provided, extending the basic information in the \description slot.
-\details{This function simulates the number of edible popcorn kernels that are made when cooking a fixed number of kernels at the same heat setting 
+\details{This function simulates the number of edible popcorn kernels that are made when cooking a fixed number of kernels at the same heat setting
 for a given amount of \code{T} seconds.\cr
-Time durations less than 77 seconds are not supported. A vector (list) of time values is not permitted, since the goal is to perform sequential 
+Time durations less than 77 seconds are not supported. A vector (list) of time values is not permitted, since the goal is to perform sequential
 experimentation to determine the optimum time, with the fewest number of function calls.
 }
 
@@ -34,19 +34,20 @@ experimentation to determine the optimum time, with the fewest number of functio
 \value{Returns the number of edible popcorn kernels. Random noise is added for some realism.}
 
 % A section with references to the literature. Use \url{} or \href{}{} for web pointers.
-\references{Please see Chapter 5 of the following book: Kevin Dunn, 2010 to 2015, \emph{Process Improvement using Data}, \url{http://learnche.org/pid}
+\references{Please see Chapter 5 of the following book: Kevin Dunn, 2010 to 2019, \emph{Process Improvement using Data}, \url{https://learnche.org/pid}
 }
 
 % Use this for a special note you want to have pointed out. Multiple \note sections are allowed, but might be confusing to the end users.
 %\note{}
 
-\author{Kevin Dunn, <kevin.dunn@mcmaster.ca>}
+\author{Kevin Dunn, <kgdunn@gmail.com>}
+%\email{kgdunn@gmail.com}
 %Information about the author(s) of the Rd file. Use \email{} without extra delimiters to specify email addresses, or \url{} or \href{}{} for web pointers.
 
 \seealso{\code{\link{grocery}}, \code{\link{manufacture}}}
 %Pointers to related R objects, using \code{\link{...}} to refer to them (\code is the correct markup for R object names, and \link produces hyperlinks in output formats which support this. See Marking text, and Cross-references).
 \examples{
-# Cooking for a very short duration is not supported. 
+# Cooking for a very short duration is not supported.
 # For example, popcorn(T=50) will fail
 
 # Cooking from 77 seconds onwards is supported
@@ -55,7 +56,7 @@ popcorn(T=120)
 # What happens if we leave the pot on the stove for too long?
 popcorn(T=500)
 
-# Can you find the optimum time to cook on the stove 
+# Can you find the optimum time to cook on the stove
 # using the fewest number of function calls?
 }
 

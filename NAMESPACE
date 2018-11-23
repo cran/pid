@@ -1,12 +1,9 @@
-importFrom("stats", "coef", "na.omit", "rnorm", "runif", "model.frame", "predict")
-importFrom("utils", "as.roman")
+import(ggplot2, png, FrF2)
 importFrom("grDevices", "terrain.colors")
-importFrom("FrF2", "catlg", "nfac", "nruns", "FrF2")
-importFrom("DoE.base", "generators")
-importFrom("graphics", "plot.new", "plot")
-
-import(ggplot2, png)
-
+importFrom("graphics", "plot", "plot.new")
+importFrom("stats", "coef", "model.frame", "na.omit", "predict", "rnorm", "runif", "setNames")
+importFrom("utils", "as.roman")
+importFrom("FrF2", "catlg")
 
 export("paretoPlot")
 export("tradeOffTable")

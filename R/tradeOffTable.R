@@ -1,9 +1,12 @@
-# (c) Kevin Dunn, 2015.
+# (c) Kevin Dunn, 2018.
 
-# require(png)
+if (!requireNamespace("png", quietly = TRUE)) {
+  stop(paste0("Package \"png\" is essential for this function to work. ",
+              "Please install it."), call. = FALSE)
+}
 
 tradeOffTable <- function(){
   plot.new()
-  img <- readPNG(system.file("trade-off-table.png", package="pid"))
+  img <- png::readPNG(system.file("trade-off-table.png", package = "pid"))
   grid::grid.raster(img)
 }

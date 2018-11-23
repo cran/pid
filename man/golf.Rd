@@ -25,5 +25,5 @@
 }
 \usage{data(golf)}
 \format{A data.frame containing 16 observations of 4 variables (A, B, C, D, with y as a response variable.)}
-\source{A MOOC on Design of Experiments: ``Experimentation for Improvement'', \url{http://learnche.org}}
+\source{A MOOC on Design of Experiments: ``Experimentation for Improvement'', \url{https://learnche.org}}
 \keyword{datasets}

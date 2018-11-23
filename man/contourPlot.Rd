@@ -74,13 +74,14 @@ The \code{ggplot2} object may be further manipulated, if desired.}
 
 % A section with references to the literature. Use \url{} or \href{}{} for web pointers.
 \references{Please see Chapter 5 of the following book:
-Kevin Dunn, 2010 to 2015, \emph{Process Improvement using Data}, \url{http://learnche.org/pid}
+Kevin Dunn, 2010 to 2019, \emph{Process Improvement using Data}, \url{https://learnche.org/pid}
 }
 
 % Use this for a special note you want to have pointed out. Multiple \note sections are allowed, but might be confusing to the end users.
 %\note{}
 
-\author{Kevin Dunn, <kevin.dunn@mcmaster.ca>}
+\author{Kevin Dunn, <kgdunn@gmail.com>}
+%\email{kgdunn@gmail.com}
 %Information about the author(s) of the Rd file. Use \email{} without extra delimiters to specify email addresses, or \url{} or \href{}{} for web pointers.
 
 %\seealso{}

@@ -6,12 +6,12 @@ Process Improvement using Data
 }
 \description{
 This package contains functions and datasets that complement the book
-Process Improvement using Data, \url{http://learnche.org/pid}.
+Process Improvement using Data, \url{https://learnche.org/pid}.
 
 The functions and datasets are also used in the massive open online course (MOOC) called
-Experimentation for Improvement, hosted on Coursera.
+"Experimentation for Improvement", hosted on Coursera, \url{https://yint.org/experiments}.
 
-The functions are most useful for design of experiments (DOE), and additional functions 
+The functions are most useful for design of experiments (DOE), and additional functions
 and datasets will be added as the book and the MOOC evolve over time.
 }
 \details{
@@ -26,17 +26,17 @@ Other packages that you can use immediately for experimental design are: \pkg{\l
 \author{
 Kevin Dunn
 
-Maintainer: Kevin Dunn <kevin.dunn@mcmaster.ca>
+Maintainer: Kevin Dunn <kgdunn@gmail.com>
 }
 \references{
-    Box G. E. P, Hunter, W. C. and Hunter, J. S. (2005) 
+    Box G. E. P, Hunter, W. C. and Hunter, J. S. (2005)
     \emph{Statistics for Experimenters, 2nd edition}.
     New York: Wiley.
 }
 \keyword{array}
 \keyword{design}
 \seealso{
-Related packages: 
+Related packages:
   \pkg{\link[DoE.base:DoE.base-package]{DoE.base}}, \pkg{\link[BsMD:BsMD-package]{BsMD}}, \pkg{\link[FrF2:FrF2-package]{FrF2}}
 }
 \examples{
@@ -45,10 +45,10 @@ Related packages:
 	S <- c(-1, -1, +1, +1)  # centered and scaled speed variable
 	y <- c(69, 60, 64, 53)  # conversion, is our response variable, y
 	doe.model <- lm(y ~ T + S + T * S)  # create a model with main effects, and interaction
-	paretoPlot(doe.model)  
+	paretoPlot(doe.model)
 
 	# 3-factor example
 	data(pollutant)
-	mod.full <- lm(y ~ C*T*S, data=pollutant) 
-	paretoPlot(mod.full)       
+	mod.full <- lm(y ~ C*T*S, data=pollutant)
+	paretoPlot(mod.full)
 }
